@@ -1,0 +1,24 @@
+StudyMate frontend pages
+========================
+
+This package is for the existing Vite + React + TypeScript project in:
+C:\Users\abhis\StudyMate\client
+
+1. Stop the Vite server with Ctrl+C.
+2. Extract this ZIP.
+3. Copy the contents of the extracted `src` folder into your existing `client/src` folder, replacing files when asked.
+4. Copy `vite.config.ts` into `client/` only if your existing config does not already include the Tailwind Vite plugin.
+5. In the client terminal run:
+   npm install
+   npm run dev
+
+Required packages:
+npm install react-router-dom lucide-react
+
+Tailwind CSS v4 must already be installed as:
+npm install tailwindcss @tailwindcss/vite
+
+The app currently uses demo/localStorage data so you can navigate and test all screens before connecting the backend.
+Login demo: any valid email + password of at least 6 characters.
+Register creates a local demo account.
+This is frontend-only for now. It does not yet save data to MongoDB or call Gemini.
